@@ -6,6 +6,12 @@
     font-style: normal;
 }
 
+video {
+    width: 100%; /* 親要素に合わせる */
+    height: 100%; /* 親要素に合わせる */
+    object-fit: cover; /* ビデオを親要素に合わせて切り抜く */
+}
+
 .logo {
     display: flex;
     justify-content: center; /* 横方向（X軸）の中央揃え */
