@@ -6,7 +6,7 @@
     font-style: normal;
 }
 
-video {
+.a {
     width: 100%; /* 親要素に合わせる */
     height: 100%; /* 親要素に合わせる */
     object-fit: cover; /* ビデオを親要素に合わせて切り抜く */
