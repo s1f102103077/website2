@@ -1,0 +1,306 @@
+@font-face {
+    font-family: 'UDShinGo';
+    src: url('https://example.com/udshin-go.woff2') format('woff2');
+    /* 実際のフォントファイルのURLを指定 */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo {
+    display: flex;
+    justify-content: center; /* 横方向（X軸）の中央揃え */
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+body {
+    font-family:"UD デジタル 教科書体 N-R", "BIZ UDゴシック Regular", "Hiragino Kaku Gothic ProN", "ascii";
+    margin: 50px;
+}
+
+
+h1, h3 {
+    margin: 0%;
+    padding: 11px;
+    text-align: center;
+    background-color: aquamarine;
+    font-family:"UD デジタル 教科書体 N-R", "BIZ UDゴシック Regular", "Hiragino Kaku Gothic ProN", "ascii";
+}
+
+
+.container {
+    display: flex; /* Flexbox を有効にする */
+}
+
+.social, .mission {
+    flex: 1; /* 各要素が均等の幅を持つようにする */
+    padding: 11px;
+    box-sizing: border-box;
+}
+
+
+.social {
+    background-color:  #c6f2fd;
+}
+
+.mission {
+    background-color: #c6fde7;
+}
+
+#bold {
+    font-weight: bold;
+    color: blue;
+}
+
+.picture img{
+    width: 100%;
+    height: auto;
+}
+
+
+.picture-container {
+    display: flex;
+    justify-content: center; /* 横方向（X軸）の中央揃え */
+    align-items: center;
+}
+
+.picture-container .picture2 {
+    margin-right: 1em;
+
+}
+
+.picture-container .picture3 {
+    margin-right: 5em;
+   
+}
+
+
+h4{
+    text-align: center;
+
+}
+
+
+.p {
+    text-align: center;
+}
+
+.picture-container img {
+    justify-content: center; /* 横方向（X軸）の中央揃え */
+    align-items: center;
+    height: auto; /* 高さを自動調整 */
+
+}
+
+
+.picture2 img{
+    width: 150%;
+    height: auto;
+}
+
+.picture3 img{
+    width:150%;
+    height: auto;
+}
+
+.product-container {
+    display: flex; /* フレキシブルボックスを使用して横に配置 */
+  
+    text-align: center;
+ 
+        }
+
+
+
+
+    .product {
+        flex: 1; /* 動画が残りのスペースを占めるように */
+    }
+
+    .video {
+        width: 80%;
+        display: flex;
+        margin-left: 3em;
+    }
+
+    .text {
+        display: flex;
+        margin-right: 0em;
+        background-color: #c6fde7;
+       
+        
+      
+    }
+
+    .text p{
+        color: blue;
+        
+    }
+
+.video-container {
+    width: 200;
+    display: flex;
+    justify-content: center; /* 横方向（X軸）の中央揃え */
+    align-items: center;
+
+
+}
+
+
+#video {
+    display: flex;
+    justify-content: center;
+}
+
+
+.cp_timeline02 {
+	position: relative;
+	margin: 3em auto;
+	overflow: auto;
+}
+.cp_timeline02:before {
+	position: absolute;
+	left: 50%;
+	width: 5px;
+	height: 100%;
+	content: '';
+	background: #2bf6db;
+}
+.cp_timeline02 h2 {
+	position: relative;
+	clear: both;
+	max-width: 6em;
+	margin: 0 auto 1em;
+	padding: .1em;
+	text-align: center;
+	background: #FFC107;
+	border-radius: 8px;
+	font-size: 1.2em;
+}
+.cp_timeline02 ul {
+	max-width: calc(100% - 4em);
+	margin: 0;
+	padding: 0 0 0 2em;
+	list-style: none;
+}
+.cp_timeline02 li {
+	position: relative;
+	margin-bottom: 1em;
+	padding: 1em;
+	background: #e1fff1;
+	width: 42%;
+	border-radius: 8px;
+	border: solid 1px rgb(40, 255, 230);
+}
+.cp_timeline02 li:before {
+	position: absolute;
+	top: 12px;
+	left: -14px;
+	content: '';
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 15px 10px 0;
+	border-color: transparent #e1fffa transparent transparent;
+	z-index: 0;
+}
+.cp_timeline02 li:after {
+	position: absolute;
+	top: 12px;
+	left: -16px;
+	content: '';
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 15px 10px 0;
+	border-color: transparent #28ffc2 transparent transparent;
+ 	z-index: -1;
+}
+.cp_timeline02 li:nth-child(even) {
+	float: right;
+	margin-top: 2em;
+}
+.cp_timeline02 li:nth-child(odd) {
+	float: left;
+}
+.cp_timeline02 li:nth-child(odd):before {
+	right: -14px;
+	left: auto;
+	border-width: 10px 0 10px 15px;
+	border-color: transparent transparent transparent #e1fff1;
+}
+.cp_timeline02 li:nth-child(odd):after {
+	position: absolute;
+	right: -16px;
+	left: auto;
+	content: '';
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 15px;
+	border-color: transparent transparent transparent #28ffc2;
+ 	z-index: -1;
+}
+.cp_timeline02 li:nth-of-type(2n+1) {
+	clear: both;
+}
+.cp_timeline02 li .flag {
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+}
+.cp_timeline02 li .desc {
+	font-size: 0.7em;
+	line-height: 1.5em;
+}
+.cp_timeline02 li .time {
+	font-size: 0.6em;
+	color: #00838F;
+	font-weight: bold;
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+    .container {
+        flex-direction: column; /* 縦に配置する */
+    }
+
+    .social, .mission {
+        flex: none; /* 均等の幅にしない（元の幅を維持） */
+    }
+
+    .product-container {
+        flex-direction: column; /* 縦に配置する */
+    }
+
+    .product, .text {
+        flex: none; /* 元の幅を維持 */
+        margin: 0; /* マージンをリセット */
+    }
+
+   
+
+
+
+}
+
+
+@media (min-width: 1300px) {
+    .product-container {
+        display: flex;
+        justify-content: center; /* 横方向（X軸）の中央揃え */
+        align-items: center; /* 縦方向（Y軸）の中央揃え */
+    }
+    
+    .product, .text {
+        flex: 1; /* 各要素が均等の幅を持つようにする */
+        margin: 0 10px; /* 適切なマージンを設定して要素同士の隙間を調整 */
+    }
+    
+}
